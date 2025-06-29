@@ -1,4 +1,5 @@
 :root {
+  --textcolor: #434455;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -21,12 +22,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
-  color: var(--navy-blue);
+  color: var(--textcolor);
   background: var(--white);
 }
 
 .header {
-  width: 100%;
   background: var(--white);
   padding: 24px 150px;
   display: flex;
@@ -137,7 +137,7 @@ body {
   line-height: 1.07;
   font-family: var(--font-family);
   text-align: center;
-  max-width: 600px;
+
   margin: 0;
 }
 
@@ -174,10 +174,6 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.advantage-item {
-  max-width: 264px;
 }
 
 .advantage-title {
@@ -250,8 +246,6 @@ body {
 }
 
 .team-img {
-  width: 100%;
-  height: 260px;
   object-fit: cover;
   margin: 0px;
 }
@@ -294,8 +288,6 @@ body {
 }
 
 .portfolio-list-row {
-  width: 1128px;
-  height: 420px;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -307,8 +299,7 @@ body {
 .portfolio-item {
   text-decoration: none;
   color: inherit;
-  width: 360px;
-  height: 420px;
+
   padding: 0px;
   margin: 0px;
   background: var(--white);
@@ -377,6 +368,4 @@ body {
   line-height: 1.5;
   margin: 0px;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
 }

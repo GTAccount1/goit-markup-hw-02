@@ -114,6 +114,11 @@ body {
   display: block;
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--iris);
+}
+
 .main-page {
   background: var(--navy-blue);
   display: flex;
@@ -147,6 +152,11 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-family);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--iris);
 }
 
 .advantage-page {
@@ -227,6 +237,16 @@ body {
     0 1px 6px rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   background: var(--white);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.team-member:hover,
+.team-member:focus {
+  transform: translateY(-4px);
+  background: var(--iris);
 }
 
 .team-img {
@@ -250,6 +270,93 @@ body {
   color: var(--slate);
   font-family: var(--font-family);
   margin: 0px;
+}
+
+.portfolio {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 120px 156px;
+  margin: 0px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  padding: 0px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list-row {
+  width: 1128px;
+  height: 420px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 48px;
+}
+
+.portfolio-item {
+  text-decoration: none;
+  color: inherit;
+  width: 360px;
+  height: 420px;
+  padding: 0px;
+  margin: 0px;
+  background: var(--white);
+  display: block;
+  flex-direction: column;
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  cursor: pointer;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  transform: translateY(-4px);
+  background: var(--iris);
+}
+
+.portfolio-item-img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  padding: 0px;
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.portfolio-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  padding: 0px;
+  margin-left: 16px;
+  margin-bottom: 32px;
+  margin-top: 0px;
 }
 
 .footer {

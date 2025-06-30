@@ -413,13 +413,16 @@ body {
   text-decoration: none;
 }
 
-.logo-text {
+.logo-text1 {
   color: var(--cloud);
+}
+
+.logo-text2 {
+  color: var(--navy-blue);
 }
 
 .menu-list {
   list-style: none;
-  padding: 0;
   margin: 0;
 }
 
@@ -443,7 +446,6 @@ body {
 
 .contacts-list {
   list-style: none;
-  padding: 0;
   margin: 0;
 }
 

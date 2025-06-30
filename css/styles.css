@@ -38,7 +38,7 @@ body {
 }
 
 .logo-text-main {
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .logo-text-footer {

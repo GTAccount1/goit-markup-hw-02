@@ -414,7 +414,7 @@ body {
 }
 
 .logo-text {
-  color: var(--navy-blue);
+  color: var(--cloud);
 }
 
 .menu-list {
@@ -510,7 +510,7 @@ body {
 }
 
 .team-page {
-  background-color: var(--cloud);
+  background-color: var(--white);
   text-align: center;
 }
 

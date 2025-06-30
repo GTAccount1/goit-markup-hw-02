@@ -1,3 +1,4 @@
+/*
 :root {
   --textcolor: #434455;
   --iris: #4d5ae5;
@@ -279,7 +280,7 @@ body {
   font-size: 36px;
 
   /* line-height: 40px; */
-  line-height: 1.11111;
+/*line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
@@ -327,7 +328,7 @@ body {
   font-size: 20px;
 
   /* line-height: 24px; */
-  line-height: 1.2;
+/*line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   padding: 0px;
@@ -341,7 +342,7 @@ body {
   font-size: 16px;
 
   /* line-height: 24px; */
-  line-height: 1.5;
+/*line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
   padding: 0px;
@@ -368,4 +369,216 @@ body {
   line-height: 1.5;
   margin: 0px;
   letter-spacing: 0.02em;
+}
+*/
+
+/* styles.css */
+
+:root {
+  --textcolor: #434455;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--textcolor);
+  background-color: var(--white);
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.nav-wrapper {
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+
+.logo-text {
+  color: var(--navy-blue);
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--ocean);
+}
+
+.main-page {
+  background-color: var(--navy-blue);
+  text-align: center;
+}
+
+.main-page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin: 0;
+}
+
+.btn-primary {
+  background-color: var(--iris);
+  color: var(--white);
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--ocean);
+}
+
+.advantage-page {
+  background-color: var(--white);
+}
+
+.advantage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.advantage-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.team-page {
+  background-color: var(--cloud);
+  text-align: center;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  margin: 0;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin: 0;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  margin: 0;
+}
+
+.portfolio {
+  background-color: var(--white);
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  margin: 0;
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin: 0;
+}
+
+.portfolio-item-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  margin: 0;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+  margin: 0;
 }

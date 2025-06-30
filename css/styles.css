@@ -414,7 +414,7 @@ body {
 }
 
 .logo-text {
-  color: var(--navy-blue);
+  color: var(--cloud);
 }
 
 .menu-list {
@@ -517,6 +517,10 @@ body {
 .team-list {
   background-color: var(--white);
 }
+.team-member {
+  background-color: var(--white);
+}
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;

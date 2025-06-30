@@ -413,11 +413,11 @@ body {
   text-decoration: none;
 }
 
-.logo-text1 {
+.logo-text-main {
   color: var(--cloud);
 }
 
-.logo-text2 {
+.logo-text-footer {
   color: var(--navy-blue);
 }
 
